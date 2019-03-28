@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Canvas Basketball</title>
+
+    <style>
+        body, html
+        {
+            background-color: darkslategray;
+        }
+
+    </style>
+</head>
+
+<body>
+    <script src="basketball_func.js"></script>
+    <script src="entity.js"         ></script>
+    <script src="player.js"         ></script>
+    <script src="attractor.js"      ></script>
+    <script src="puck.js"           ></script>
+    <script src="wall.js"           ></script>
+    <script src="trigger.js"        ></script>
+    <script src="goal.js"           ></script>
+    <script src="scoreboard.js"     ></script>
+    <script src="portal.js"         ></script>
+    <script src="particle.js"       ></script>
+
+    <div style="width: 25%;" id="divLeft" align="center">
+        <button id="levelbutton">Load level</button>
+    </div>
+
+    <div id="divCenter" style="padding: 5px;">
+        <canvas id="myCanvas" crossOrigin="anonymous" style="display: flex;margin: 0 auto;border: 3px solid black;" width="600" height="600">
+            Canvas not supported by your browser
+        </canvas>
+        <div style="color:white;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Canvas Basketball by Michael
+        </div>
+    </div>
+</body>
+
+</html>
